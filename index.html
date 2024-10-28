@@ -5,23 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+     <style>
+        header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.b1{
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(189, 43, 169);
+}
+.b1:hover{
+    border: 3px solid rgb(155, 48, 255);
+    color: rgb(255, 87, 213);
+}
+
+
+
+    </style>
 </head>
 <body>
     <header>
         <h1>Witaj na moim Portfolio</h1>
         <h2>Strona ta powstała po to abyś mógł zapoznać się z moimi projektami</h2>
+        <div class="b1"> <a href="o-mnie.html"> o mnie </a> </div>
+        <div class="b1"> <a href="projekty.html"> Projekty </a></div>
+        <div class="b1"> <a href="kontakt.html"> Kontakt </a> </div>
     </header>
     <main>
         
         <img src="bro.jpg" class="bro" alt="">
         
-    <section>
-        <nav>
-           <p align="center"> <a href="o-mnie.html" class="button">O mnie</a> </p>
-           <p align="center"> <a href="projekty.html" class="button">Projekty</a> </p>
-           <p align="center"> <a href="kontakt.html" class="button">Kontakt</a> </p>
-        </nav>
-    </section>
+
       
 
     </main>
